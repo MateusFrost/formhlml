@@ -1,5 +1,5 @@
 document.getElementById("meuFormulario").addEventListener("submit", function(event) {
-    event.preventDefault(); // Impede o envio padrão do formulário
+    event.preventDefault();
 
     let campoA = parseInt(document.getElementById("campoA").value);
     let campoB = parseInt(document.getElementById("campoB").value);
@@ -10,3 +10,4 @@ document.getElementById("meuFormulario").addEventListener("submit", function(eve
         alert("Formulário inválido! B não é maior que A.");
     }
 });
+.
