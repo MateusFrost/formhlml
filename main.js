@@ -10,4 +10,3 @@ document.getElementById("meuFormulario").addEventListener("submit", function(eve
         alert("Formulário inválido! B não é maior que A.");
     }
 });
-.
